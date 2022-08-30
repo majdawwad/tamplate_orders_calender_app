@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:tamplate_app/db/db_helper.dart';
 
-import 'screens/orders_calender/orders_calender.dart';
+import 'data/db/db_helper.dart';
+import 'view/screens/orders_calender/orders_calender.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
